@@ -1,5 +1,14 @@
+import { Footer, Header, Main } from "./components";
+
 const App = () => {
-  return <h1 className="text-2xl font-bold underline">Hello world!</h1>;
+  return (
+    // <div className="bg-banner bg-no-repeat bg-scroll bg-bright-red">
+    <>
+      <Header />
+      <Main />
+      <Footer />
+    </>
+  );
 };
 
 export default App;
