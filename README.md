@@ -27,7 +27,7 @@ As mentioned above, there are many ways to host your project for free. Our recom
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [fm-managee-app.vercel.app](https://fm-managee-app.vercel.app)
 
 ## My process
 
