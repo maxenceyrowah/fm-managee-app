@@ -2,19 +2,17 @@ import { LargButton } from "../../shared";
 
 const Simplify = () => {
   return (
-    <div className="bg-bright-red mt-[15rem] h-[13rem] bg-banner bg-no-repeat bg-cover">
-      <div className="flex w-5/6 m-auto justify-between items-center h-full">
-        <div>
-          <p className="text-4xl w-[30rem] text-very-pale-red">
-            Simplify how your team works today.
-          </p>
-        </div>
-        <div>
+    <div className="bg-bright-red md:mt-[15rem] mt-10 md:h-[13rem] h-full bg-banner bg-no-repeat bg-cover">
+      <div className="mx-auto max-w-screen-xl p-[2rem] sm:px-6 lg:px-8 md:flex flex-col md:flex-row block md:justify-between md:items-center text-center h-full">
+        <p className="md:text-5xl text-5xl md:w-[30rem] text-veryPaleRed md:text-left text-center">
+          Simplify how your team works today.
+        </p>
+
+        <div className="md:mt-0 mt-10">
           <LargButton
             {...{
               name: "Get Started",
-              styles:
-                "bg-very-pale-red text-bright-red hover:bg-brightRedLight",
+              styles: "bg-veryPaleRed text-bright-red hover:bg-brightRedLight",
             }}
           />
         </div>

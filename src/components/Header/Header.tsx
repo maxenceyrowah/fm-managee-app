@@ -13,7 +13,7 @@ const Header = () => {
           <NavBarButton />
         </div>
 
-        <div className="mt-[8rem] mb-[11rem]">
+        <div className="md:mt-[8rem] mt-0 md:mb-[11rem] mb-0">
           <Banner />
         </div>
       </div>

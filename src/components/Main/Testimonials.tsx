@@ -3,12 +3,12 @@ import { cardOptions } from "../../shared/testimonialCardConfig";
 
 const Testimonials = () => {
   return (
-    <div className="mt-[10rem] text-center">
-      <h1 className="text-dark-blue font-bold text-5xl mb-10">
+    <div className="md:mt-[10rem] mt-0 text-center">
+      <h1 className="text-dark-blue font-bold md:text-5xl text-2xl mb-10">
         What they’ve said
       </h1>
 
-      <div className="flex gap-10 mt-20">
+      <div className="flex md:flex-row flex-col gap-10 mt-20">
         {cardOptions.map((card, index) => (
           <div
             className="flex flex-col items-center bg-veryLightGray p-5"
@@ -33,7 +33,7 @@ const Testimonials = () => {
         <LargButton
           {...{
             name: "Get Started",
-            styles: "bg-bright-red text-very-pale-red hover:bg-brightRedLight",
+            styles: "bg-bright-red text-veryPaleRed hover:bg-brightRedLight",
           }}
         />
       </div>
