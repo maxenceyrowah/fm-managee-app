@@ -8,6 +8,7 @@ type TCardOptions = {
   name: string;
   description: string;
 };
+
 export const cardOptions: TCardOptions[] = [
   {
     img: AnishaImg,

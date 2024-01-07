@@ -21,7 +21,9 @@ export default {
         // transparent: "transparent",
       },
       backgroundImage: {
-        banner: "url('./src/assets/images/bg-simplify-section-desktop.svg')",
+        banner: "url('./src/assets/images/bg-tablet-pattern.svg')",
+        simplyfiBg:
+          "url('./src/assets/images/bg-simplify-section-desktop.svg')",
       },
     },
   },

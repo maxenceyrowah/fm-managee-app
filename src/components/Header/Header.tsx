@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 
 const Header = () => {
   return (
-    <header>
+    <header className="bg-banner bg-no-repeat md:bg-[length:auto_60rem] bg-auto md:bg-[56rem_-16rem] bg-[5rem_-15rem]">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-[7rem] items-center justify-between mb-11">
           <Logo />
