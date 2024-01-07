@@ -1,7 +1,7 @@
-import AliImg from "../assets/images/avatar-ali.png";
-import AnishaImg from "../assets/images/avatar-anisha.png";
-import RichardImg from "../assets/images/avatar-richard.png";
-import ShanaiImg from "../assets/images/avatar-shanai.png";
+import AliImg from "/public/assets/images/avatar-ali.png";
+import AnishaImg from "/public/assets/images/avatar-anisha.png";
+import RichardImg from "/public/assets/images/avatar-richard.png";
+import ShanaiImg from "/public/assets/images/avatar-shanai.png";
 
 type TCardOptions = {
   img: string;

@@ -1,5 +1,5 @@
 import { LargButton } from "../../shared";
-import IllustrationSvg from "../../assets/images/illustration-intro.svg";
+import IllustrationSvg from "/public/assets/images/illustration-intro.svg";
 
 const Banner = () => {
   return (
